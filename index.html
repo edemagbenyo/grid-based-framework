@@ -12,8 +12,8 @@
 
     <!-- Navigation -->
     <div class="navbar-fluid">
-        <div class="navbar-logo">
-            <img src="" alt="Logo image">
+        <div class="navbar-logo github">
+            <a href="#"><img src="./assets/img/github.png" alt="Logo image"></a>
         </div>
         <form action="" class="navbar-form">
             <input type="text" class="search" placeholder="Search or Jump to">
@@ -24,33 +24,41 @@
             <li class="nav-item"><a href="#">Marketplace</a></li>
             <li class="nav-item"><a href="#">Explore</a></li>
         </ul>
-        <ul class="put-right">
-                <li class="nav-item"><a href="#">Pull Requests</a></li>
-                <li class="nav-item"><a href="#">Issues</a></li>
+        <ul class="put-right notifs">
+                <li class="nav-item"><a href="#">
+                    <a href="#">
+                        <img src="./assets/img/bell.png" alt="">
+                    </a>
+                </a></li>
+                <li class="nav-item"><a href="#">
+                    <a href="#">
+                        <img src="./assets/img/pkus.png" alt="">
+                    </a>
+                </a></li>
         </ul>
     </div>
     <div class="bucket-full">
         <div class="line">
-            <div class="item-lg-3">
+            <div class="item-lg-3 about">
                 <div class="img-holder">
                     <img src="./assets/img/profile.jpg" alt="Profile">
-                    <span>What are you doing?</span>
+                    <p class="caption">What are you doing?</p>
                 </div>
                 <h2>Edem Agbenyo</h2>
                 <h3>edemagbenyo</h3>
                 <hr>
                 <a href="#" class="btn btn-main btn-full">Edit Profile</a>
-                <ul>
-                    <li><a href="#">Description</a></li>
-                    <li><a href="#">Organization</a></li>
-                    <li><a href="#">Location</a></li>
-                    <li><a href="#">Email</a></li>
-                    <li><a href="#">Website</a></li>
+                <ul >
+                    <li class="desc"><a href="#">Description</a></li>
+                    <li class="org"><a href="#">Organization</a></li>
+                    <li class="loc"><a href="#">Location</a></li>
+                    <li class="message"><a href="#">Email</a></li>
+                    <li class="link"><a href="#">Website</a></li>
                 </ul>
             </div>
             <div class="item-lg-9">
-                <ul>
-                    <li><a href="#">Overview</a></li>
+                <ul class="top-links">
+                    <li><a href="#" class="active">Overview</a></li>
                     <li><a href="#">Repositories</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">Package</a></li>
@@ -58,16 +66,28 @@
                     <li><a href="#">Followers</a></li>
                     <li><a href="#">Following</a></li>
                 </ul>
-                <hr>
-                <h1>Pinned</h1>
+                
+                <h1 class="pin-title">Pinned</h1>
                 <div class="line">
-                    <div class="item-lg-6 border-1">Project 1</div>
-                    <div class="item-lg-6 border-1">Project 2</div>
+                    <div class="item-lg-12 pins">
+                        <div class="pin">
+                            <h2><a href="#">Repo name</a></h2>
+                            <p>Description about the repository</p>
+                            <span>Language used</span>
+                        </div>
+                        <div class="pin">
+                            <h2><a href="#">Repo name</a></h2>
+                            <p>Description about the repository</p>
+                            <span>Language used</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="line">
                     <h3>200 Contributions in the last year <span>Contributions settings</span> </h3>
-                    <div class="item-lg-12 border-1">
+                    <div class="item-lg-12">
+                       <div class="graph">
                         <img src="./assets/img/github-contribution-graph-css-grid.png" alt="graph image">
+                       </div>
                     </div>
                 </div>
             </div>
