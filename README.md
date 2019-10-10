@@ -1,6 +1,8 @@
-# grid-based-framework
+# grid-based-framework(colem)
 Grid based framework
-# Clone of New York times Page
+# Custom Grid based framework with sample page
+This is a replica of the github profile page.
+The page was designed using colem css grid framework created using 12 columns grid.
 
 ---
 ## Authors
@@ -17,11 +19,14 @@ Here is how to setup this project on your machine.
 
 Open your terminal in your working folder and execute the following command
 
->git clone 
+>git clone https://github.com/edemagbenyo/grid-based-framework
 
 
 Here is the link to the live version of this project	
-[here]()
+[here](https://rawcdn.githack.com/edemagbenyo/grid-based-framework/2f0db94a2cb5baffc465044bf3b48f379a433feb/index.html)
 
 
 ## Things learnt
+Grid
+CSS 
+Media Queries
