@@ -1,7 +1,10 @@
 /* Define colours */
+
 /* Primary color: #4727CB */
-/* Secondary color: #5531f7*/
-/* Secondary color: #212529*/
+
+/* Secondary color: #5531f7 */
+
+/* Secondary color: #212529 */
 
 /* Reset */
 * {
@@ -10,8 +13,15 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  font-family: "Lato", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family:
+    "Lato",
+ "Lucida Sans",
+ "Lucida Sans Regular",
+ "Lucida Grande",
+    "Lucida Sans Unicode",
+ Geneva,
+ Verdana,
+ sans-serif;
 }
 
 body {
@@ -36,6 +46,7 @@ a:hover {
   text-decoration: none;
   color: #212529;
 }
+
 h1,
 h2,
 h3,
@@ -121,8 +132,10 @@ ul li {
 .line {
   display: flex;
   flex-wrap: wrap;
+
   /* margin: 0 -15px; */
 }
+
 .item,
 .item-1,
 .item-2,
@@ -143,7 +156,6 @@ ul li {
 .item-lg-8,
 .item-lg-9 {
   padding: 0 15px;
-
 }
 
 .item {
@@ -461,7 +473,7 @@ ul li {
 
 .navbar ul li.nav-item a:hover,
 .navbar-fluid ul li.nav-item a:hover {
-  color: #000000;
+  color: #000;
 }
 
 .put-right {

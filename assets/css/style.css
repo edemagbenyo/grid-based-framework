@@ -1,6 +1,7 @@
 .github {
   vertical-align: middle;
 }
+
 .github img {
   width: 50%;
 }
@@ -10,10 +11,12 @@ footer .links {
   margin: 40px 0;
   padding: 30px 0;
 }
+
 footer li {
   display: inline-block;
   padding-right: 15px;
 }
+
 footer li a {
   font-size: 12px;
 }
