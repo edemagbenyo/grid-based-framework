@@ -21,6 +21,10 @@ footer li a {
   font-size: 12px;
 }
 
+div.graph img {
+  width: 100%;
+}
+
 .notifs li a img {
   width: 40%;
 }
@@ -109,6 +113,14 @@ p.caption {
   background-size: 20px 20px;
 }
 
+.pin a {
+  font-size: 16px;
+}
+
+.top-links li a {
+  padding: 10px 5px;
+}
+
 .about ul:first-of-type li a {
   font-size: 14px;
 }
@@ -122,10 +134,6 @@ p.caption {
 
 .top-links li {
   display: inline-block;
-}
-
-.top-links li a {
-  padding: 10px 5px;
 }
 
 .top-links li a.active {
@@ -155,10 +163,6 @@ p.caption {
   flex-grow: 1;
 }
 
-.pin a {
-  font-size: 16px;
-}
-
 .pin p {
   padding: 10px 0;
   font-size: 14px;
@@ -166,12 +170,4 @@ p.caption {
 
 .pin span {
   font-size: 12px;
-}
-
-div.graph {
-  /* border: 1px solid #212529; */
-}
-
-div.graph img {
-  width: 100%;
 }
