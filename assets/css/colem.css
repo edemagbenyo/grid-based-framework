@@ -15,13 +15,13 @@
   -moz-box-sizing: border-box;
   font-family:
     "Lato",
- "Lucida Sans",
- "Lucida Sans Regular",
- "Lucida Grande",
+    "Lucida Sans",
+    "Lucida Sans Regular",
+    "Lucida Grande",
     "Lucida Sans Unicode",
- Geneva,
- Verdana,
- sans-serif;
+    Geneva,
+    Verdana,
+    sans-serif;
 }
 
 body {
@@ -519,6 +519,7 @@ hr {
 .border-2 {
   border: 2px solid #212529;
 }
+
 .border-3 {
   border: 3px solid #212529;
 }
