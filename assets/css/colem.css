@@ -13,8 +13,15 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  font-family: "Lato", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family:
+    "Lato",
+ "Lucida Sans",
+ "Lucida Sans Regular",
+ "Lucida Grande",
+    "Lucida Sans Unicode",
+ Geneva,
+ Verdana,
+ sans-serif;
 }
 
 body {
